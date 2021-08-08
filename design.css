@@ -1,0 +1,131 @@
+.div1 {
+    text-align: center;
+    width: 100%;
+}
+.div3 {
+    float: left;
+    position: relative;
+    left: 500px;
+    vertical-align: auto;
+}
+h4 {
+    display: inline;
+}
+.myname {
+    font-family: 'Kaushan Script', cursive;
+}
+.navbar-brand {
+    font-family: 'Satisfy', cursive;
+}
+h5 {
+    display: inline;
+}
+.div4 {
+    vertical-align: middle;
+}
+table {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+tr:nth-child(even) {
+    background-color: #cf9800;
+}
+th,
+td {
+    border: 1px solid black;
+}
+.name .email {
+    width: 15%;
+}
+.balance {
+    width: 35%;
+}
+html {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.5;
+}
+.site-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    background-color: #26272b;
+    padding: 40px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+    text-align: center;
+}
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+.site-footer a {
+    color: #737373;
+}
+.site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+.send {
+    background-color: #555555; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+.send:hover {
+    background-color: #4caf50; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+        0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.transaction {
+    background-color: #555555; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+.transaction:hover {
+    background-color: #ff0000; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+        0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+p {
+    display: inline;
+}

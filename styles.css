@@ -1,0 +1,102 @@
+body {
+    background-image: -webkit-linear-gradient(-30deg, white 45%, #070a44 45%);
+}
+h1 {
+    font-family: 'Kaushan Script', cursive;
+}
+.navbar-brand {
+    font-family: 'Satisfy', cursive;
+}
+a {
+    text-decoration: none;
+}
+.div1 {
+    width: 750px;
+    text-align: center;
+    float: left;
+}
+img {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.div3 {
+    float: left;
+    position: relative;
+    left: 500px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.5;
+}
+.site-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    background-color: #26272b;
+    padding: 40px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+    text-align: center;
+}
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+.site-footer a {
+    color: #737373;
+}
+.site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn:hover span {
+    padding-right: 25px;
+}
+
+.btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
